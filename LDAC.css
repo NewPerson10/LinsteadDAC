@@ -1483,7 +1483,7 @@ z-index: 2;
         margin: 0 auto;
     }
     .banner-text h4{
-        padding-top: 8%;
+        top: 8%;
     }
     .horizontal-scroll{
         width: 200%;
@@ -1510,8 +1510,8 @@ z-index: 2;
         left: 50px;
     }
     .banner-btn{
-        padding-top: 35%;
-        padding-left: 4%;
+        top: 35%;
+        margin-left: 4%;
     }
     .banner-sqr p{
         top: 86%;
@@ -1538,23 +1538,23 @@ z-index: 2;
         margin: 80px 40px;
     }
     nav ul{
-        padding-top: 190px;
+        margin-top: 190px;
     }
     #menubtn img{
         width: 45px;
         margin-top: 20px;
     }
     .title-text{
-        padding-left: 110%;
+        margin-left: 110%;
         width: 400px;
     }
     .line1 img{
-        padding-top: 15%;
-        padding-left: 30%;
+        margin-top: 15%;
+        margin-left: 30%;
     }
     .line2 p{
-        padding-top: 35%;
-        padding-left: 280%;
+        margin-top: 35%;
+        margin-left: 280%;
         width: 370px;
     }
     .square1 {
@@ -1571,7 +1571,7 @@ z-index: 2;
     }
     .feature-box{
         width: 300%;
-        padding-left: 20%;
+        margin-left: 20%;
         height: 250px;
     }
     .feature-btn{
@@ -1580,7 +1580,7 @@ z-index: 2;
     }
     .feature-box1{
         width: 300%;
-        padding-left: 20%;
+        margin-left: 20%;
         height: 250px;
     }
     .feature-btn1{
@@ -1591,7 +1591,7 @@ z-index: 2;
     }
     .feature-box2{
         width: 300%;
-        padding-left: 20%;
+        margin-left: 20%;
         height: 250px;
     }
     .feature-btn2{
@@ -1602,7 +1602,7 @@ z-index: 2;
     }
     .feature-box3{
         width: 300%;
-        padding-left: 20%;
+        margin-left: 20%;
         height: 250px;
     }
     .feature-btn3{
@@ -1621,8 +1621,8 @@ z-index: 2;
     }
     .upEvents p{
       position: inherit;
-      padding-left: 30%;
-      padding-top: 6%;
+      margin-left: 30%;
+      margin-top: 6%;
       width: 600px;
     }
     .Events-box{

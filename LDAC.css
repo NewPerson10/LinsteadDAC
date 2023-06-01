@@ -1470,3 +1470,107 @@ z-index: 2;
     opacity: 1;
 }
 
+@media screen and  (max-width: 770px){
+    .banner-text h4{
+       font-size: 44px;
+       padding-left: 20px;
+      }
+      .banner-text h2{
+        display: none;
+    }
+      .banner-text h1{
+        font-size: 20px;
+        font-style:normal;
+        padding-right: 350px;
+        padding-left: 20px;
+      }
+    .banner-btn a{
+       display: block;
+       padding-left: 10px;
+   }
+   .banner-box{
+    width: 210px;
+    height: 400px;
+    background-color: #025dcda0;
+    top: 20%;
+    right: 20%;
+    position: absolute;
+    border-radius: 5%;
+   }
+   .logo-text p{
+    color: #fff;
+    position: absolute;
+    top:12%;
+    left:2%;
+    font-size: smaller;
+}
+   
+.horizontal-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 190px;
+    height: 400px;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+  }
+  .horizontal-scroll::-webkit-scrollbar{
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+.horizontal-scroll img {
+    display: inline-block;
+    width: 150px; /* Adjust the width of the photos as needed */
+    height: 150px;
+    border-radius: 5%;
+    margin-right: 10px; /* Adjust the margin between photos as needed */
+  }
+  
+.scroll-box{
+    width: 150px;
+    height: 120px;
+    background-color: #ffffff2f;
+    top: 55%;
+    left: 0%;
+    position: absolute;
+    border-radius: 5%;
+}
+.scroll-box p{
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+.scroll-box1{
+    width: 150px;
+    height: 120px;
+    background-color: #ffffff2f;
+    top: 55%;
+    left: 87%;
+    position: absolute;
+    border-radius:5%;
+}
+.scroll-box1 p{
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+.scroll-box2{
+    width: 150px;
+    height: 120px;
+    background-color: #ffffff2f;
+    top: 55%;
+    left: 175%;
+    position: absolute;
+    border-radius: 5%;
+}
+.scroll-box2 p{
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+.banner-sqr p{
+  display: none;
+}
+}
+
+

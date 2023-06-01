@@ -86,7 +86,7 @@
 }
 
 
-.banner-box h4{
+.banner-text h4{
  font-size: 50px;
  text-align: left;
  color: #fff;
@@ -95,7 +95,7 @@
  padding-left: 60px;
  font-family: 'Fjalla One';
 }
-.banner-box h2{
+.banner-text h2{
     background-color: #357ace68;
     width: 200px;
     height: 150px;
@@ -104,7 +104,7 @@
     border-radius: 50%;
     position: fixed;
 }
-.banner-box h1{
+.banner-text h1{
   font-size: 20px;
   font-style: normal;
   color: hsla(0, 0%, 100%, 0.503);
@@ -1478,30 +1478,16 @@ z-index: 2;
 
 @media screen and  (max-width: 767px) {
     #banner{
-        width: 342.5%;
+        width: 340%;
         height: 100vh;
         margin: 0 auto;
     }
-    .banner-box h4{
-        padding:0px;
-        margin-left: 5%;
-        margin-top: 6%;
-        top: 20px;
-        left: 60px;
-    }
-    .banner-box b{
-         width: 500px;
-    }
-    .banner-box h1{
-        margin-top: 3%;
-        font-size: 30px;
-        margin-left: 5%;
-        width: 700px;
-        padding: 0;
+    .banner-text h4{
+        padding-top: 8%;
     }
     .horizontal-scroll{
-        width: 140%;
-        left: 5%;
+        width: 200%;
+        left: 33%;
         top: 40%;
     }
     .horizontal-scroll img{
@@ -1512,29 +1498,20 @@ z-index: 2;
         width: 35%;
     }
     .scroll-box1{
-        left: 51%;
+        left: 41%;
         width: 35%;
     }
     .scroll-box2{
-        left: 100%;
+        left: 83%;
         width: 35%;
     }
     .taskbar{
         width: 93%;
         left: 50px;
     }
-    .banner-box{
-        left: 10%;
-        height: 80vh;
-        width: 100vh;
-        top: 10%;
-    }
-
-    .banner-btn {
-        padding: 0;
-        left: 40%;
-        width: 100px;
-        display: none;
+    .banner-btn{
+        padding-top: 35%;
+        padding-left: 4%;
     }
     .banner-sqr p{
         top: 86%;
@@ -1561,30 +1538,23 @@ z-index: 2;
         margin: 80px 40px;
     }
     nav ul{
-        margin-top: 190px;
+        padding-top: 190px;
     }
     #menubtn img{
         width: 45px;
         margin-top: 20px;
     }
-    #feature{
-        background-size: cover;
-        background-position: center;
-        height:135vh;
-    }
     .title-text{
-        margin-left: 110%;
+        padding-left: 110%;
         width: 400px;
     }
-
     .line1 img{
-
-        margin-top: 15%;
-        margin-left: 30%;
+        padding-top: 15%;
+        padding-left: 30%;
     }
     .line2 p{
-        margin-top: 35%;
-        margin-left: 280%;
+        padding-top: 35%;
+        padding-left: 280%;
         width: 370px;
     }
     .square1 {
@@ -1601,42 +1571,41 @@ z-index: 2;
     }
     .feature-box{
         width: 300%;
-        margin-left: 20%;
+        padding-left: 20%;
         height: 250px;
     }
     .feature-btn{
-        top: 151%;
-        
+        top: 147%;
     }
     .feature-box1{
         width: 300%;
-        margin-left: 20%;
+        padding-left: 20%;
         height: 250px;
     }
     .feature-btn1{
-        top: 181%;
+        top: 175%;
     }
     .feature-box1 img{
         height: 200px;
     }
     .feature-box2{
         width: 300%;
-        margin-left: 20%;
+        padding-left: 20%;
         height: 250px;
     }
     .feature-btn2{
-        top: 211%;
+        top: 203%;
     }
     .feature-box2 img{
         height: 200px;
     }
     .feature-box3{
         width: 300%;
-        margin-left: 20%;
+        padding-left: 20%;
         height: 250px;
     }
     .feature-btn3{
-        top: 241%;
+        top: 230%;
     }
     .feature-box3 img{
         height: 200px;
@@ -1646,13 +1615,11 @@ z-index: 2;
         width: 60px;
     }
     .randomtext h6{
-        top: 255%;
-        left: 15%;
+        top: 240%;
+        left: 20%;
     }
     .upEvents p{
-      position: absolute;
-      left: 10%;
-      top: 6%;
+      left: 30%;
       width: 600px;
     }
     .Events-box{
@@ -1664,7 +1631,7 @@ z-index: 2;
         left: 250%;
     }
     .cdc {
-        top: 337%;
+        top: 335%;
         position: absolute;
     }
     .cdc1{

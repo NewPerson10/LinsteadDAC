@@ -86,7 +86,7 @@
 }
 
 
-.banner-text h4{
+.banner-box h4{
  font-size: 50px;
  text-align: left;
  color: #fff;
@@ -95,7 +95,7 @@
  padding-left: 60px;
  font-family: 'Fjalla One';
 }
-.banner-text h2{
+.banner-box h2{
     background-color: #357ace68;
     width: 200px;
     height: 150px;
@@ -104,7 +104,7 @@
     border-radius: 50%;
     position: fixed;
 }
-.banner-text h1{
+.banner-box h1{
   font-size: 20px;
   font-style: normal;
   color: hsla(0, 0%, 100%, 0.503);
@@ -1482,12 +1482,26 @@ z-index: 2;
         height: 100vh;
         margin: 0 auto;
     }
-    .banner-text h4{
-        top: 8%;
+    .banner-box h4{
+        padding:0px;
+        margin-left: 5%;
+        margin-top: 6%;
+        top: 20px;
+        left: 60px;
+    }
+    .banner-box b{
+         width: 500px;
+    }
+    .banner-box h1{
+        margin-top: 3%;
+        font-size: 30px;
+        margin-left: 5%;
+        width: 700px;
+        padding: 0;
     }
     .horizontal-scroll{
-        width: 200%;
-        left: 33%;
+        width: 140%;
+        left: 5%;
         top: 40%;
     }
     .horizontal-scroll img{
@@ -1498,20 +1512,29 @@ z-index: 2;
         width: 35%;
     }
     .scroll-box1{
-        left: 41%;
+        left: 51%;
         width: 35%;
     }
     .scroll-box2{
-        left: 83%;
+        left: 100%;
         width: 35%;
     }
     .taskbar{
         width: 93%;
         left: 50px;
     }
-    .banner-btn{
-        top: 35%;
-        margin-left: 4%;
+    .banner-box{
+        left: 10%;
+        height: 80vh;
+        width: 100vh;
+        top: 10%;
+    }
+
+    .banner-btn {
+        padding: 0;
+        left: 40%;
+        width: 100px;
+        display: none;
     }
     .banner-sqr p{
         top: 86%;
@@ -1544,11 +1567,18 @@ z-index: 2;
         width: 45px;
         margin-top: 20px;
     }
+    #feature{
+        background-size: cover;
+        background-position: center;
+        height:135vh;
+    }
     .title-text{
         margin-left: 110%;
         width: 400px;
     }
+
     .line1 img{
+
         margin-top: 15%;
         margin-left: 30%;
     }
@@ -1620,9 +1650,9 @@ z-index: 2;
         left: 15%;
     }
     .upEvents p{
-      position: inherit;
-      margin-left: 30%;
-      margin-top: 6%;
+      position: absolute;
+      left: 10%;
+      top: 6%;
       width: 600px;
     }
     .Events-box{
